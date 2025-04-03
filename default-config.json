@@ -10,7 +10,7 @@
 	},
 	"content": {
 		"source": {
-			"url": "https://adobe.sharepoint.com/:f:/r/sites/HelixProjects/Shared%20Documents/sites/starter-content-commerce",
+			"url": "https://adobe.sharepoint.com/:w:/r/sites/AdbeCommerce/Shared%20Documents/boilerplate-commerce",
 			"type": "onedrive"
 		}
 	},
@@ -19,10 +19,10 @@
 	},
 	"cdn": {
 		"live": {
-			"host": "main--boilerplate-commerce--adobe-tv-helix.aem.live"
+			"host": "main--aem-boilerplate-commerce--adobe-tv-helix.aem.live"
 		},
 		"preview": {
-			"host": "main--boilerplate-commerce--adobe-tv-helix.aem.page"
+			"host": "main--aem-boilerplate-commerce--adobe-tv-helix.aem.page"
 		}
 	},
 	"headers": {
@@ -57,7 +57,7 @@
 				"environments": [
 					"edit"
 				],
-				"url": "https://main--boilerplate-commerce--adobe-tv-helix.aem.live/tools/picker/dist/index.html",
+				"url": "https://main--aem-boilerplate-commerce--adobe-tv-helix.aem.live/tools/picker/dist/index.html",
 				"isPalette": true,
 				"paletteRect": "top: 54px; left: 5px; bottom: 5px; width: 300px; height: calc(100% - 59px); border-radius: var(--hlx-sk-button-border-radius); overflow: hidden; resize: horizontal;"
 			},
@@ -67,7 +67,7 @@
 				"environments": [
 					"edit"
 				],
-				"url": "https://main--boilerplate-commerce--adobe-tv-helix.aem.live/tools/segments/dist/index.html",
+				"url": "https://main--aem-boilerplate-commerce--adobe-tv-helix.aem.live/tools/segments/dist/index.html",
 				"isPalette": true,
 				"paletteRect": "top: 54px; left: 5px; bottom: 5px; width: 300px; height: calc(100% - 59px); border-radius: var(--hlx-sk-button-border-radius); overflow: hidden; resize: horizontal;"
 			}
@@ -76,8 +76,12 @@
 	"access": {
 		"admin": {
 			"role": {
-				"config_admin": [
+				"author": [
 					"joaho@adobe.com"
+				],
+				"config_admin": [
+					"joaho@adobe.com",
+					"1701396C61CF4D1C0A495EFB@techacct.adobe.com"
 				]
 			},
 			"requireAuth": "auto"
